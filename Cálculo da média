@@ -40,7 +40,7 @@ public class Media {
         double mediaFinal;
 
         if (API >= 6) {
-            mediaFinal = mediaParcial * API * 0.5;
+            mediaFinal = mediaParcial + (API * 0.5);
         } else {
             mediaFinal = mediaParcial;
         }
