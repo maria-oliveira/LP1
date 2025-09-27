@@ -38,12 +38,13 @@ public class Media {
         double mediaParcial = (P1 * 0.5) + (E1 * 0.2) + (E2 * 0.3) + X + (Sub * 0.15);
 
         double mediaFinal;
-
         if (API >= 6) {
             mediaFinal = mediaParcial + (API * 0.5);
         } else {
             mediaFinal = mediaParcial;
         }
+
+        mediaFinal = Math.min(mediaFinal, 10);
 
         System.out.printf("Sua média é: %.2f%n", mediaFinal);
 
