@@ -16,8 +16,8 @@
 </p>
 
 # Diagrama Música:
-<p align="center">
 -Musica: Canção da partida - Dorival Caymmi
+ <p align="center">
 <img width="977" height="379" alt="image" src="https://github.com/user-attachments/assets/e20bb1ac-d6fe-41ac-ab49-5e5231eab7af" />
 </p>
 
