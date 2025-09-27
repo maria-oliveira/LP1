@@ -8,6 +8,7 @@
 
 ## Diagrama de um Vídeo:
 -Filme:The Love Whicht
+
 -Sinopse: Elaine é uma jovem bruxa que está determinada a encontrar o homem de sua vida. Ela leva homens para seu apartamento e faz magias e poções a fim de seduzi-los. Tudo funciona bem, mas ela acaba com uma série de vítimas infelizes. Quando ela finalmente encontra o homem de seus sonhos, seu desespero para ser amada a torna insana.
 <img width="584" height="412" alt="image" src="https://github.com/user-attachments/assets/e04a79ef-4c9e-428e-bb85-9d6d31328cc6" />
 
