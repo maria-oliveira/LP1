@@ -9,7 +9,7 @@
 
 ## 🎨 Diagramas das Artes de Vik Muniz
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f9795135-b258-4543-87ae-341dadd6fde9" width="400"/>
+  <img width="424" height="279" alt="image" src="https://github.com/user-attachments/assets/d81ea4ce-dc6a-4781-83e4-3bbc2455bf4f" />
   <img src="https://github.com/user-attachments/assets/eca12abc-96a4-4598-b9ae-9d28b83b72ae" width="400"/>
 </div>
 <div align="center"> 
@@ -34,7 +34,7 @@ Tudo funciona bem, mas ela acaba com uma série de vítimas infelizes.
 Quando finalmente encontra o homem de seus sonhos, seu desespero para ser amada a torna insana.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e047a9ef-4c9e-428e-bb85-9d6d31328cc6" width="500"/>
+  <img  src="https://github.com/user-attachments/assets/92ae9e41-80bd-495c-badb-29d3c18da2ad" width="500" />
 </div>
 
 
