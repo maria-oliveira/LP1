@@ -3,7 +3,8 @@
 ## 📝 Diagrama Doodle
 <div align="center">
   <img src="https://github.com/user-attachments/assets/713afd5c-0560-4646-bb2b-33c0b0bf1c60" width="400"/>
-  <img src="https://github.com/user-attachments/assets/0edc61bf-7d65-469f-a364-2d51b81b2020" width="400"/> 
+  <img src="https://github.com/user-attachments/assets/9ac2ad43-09ec-4105-8029-6551cdcf8b30" width="400" />
+
 </div>
 
 ## 🎨 Diagramas das Artes de Vik Muniz
