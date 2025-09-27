@@ -12,13 +12,13 @@
 <img width="630" height="378" alt="image" src="https://github.com/user-attachments/assets/eca12abc-96a4-4598-b9ae-9d28b83b72ae" />
 
 <img width="424" height="284" alt="image" src="https://github.com/user-attachments/assets/6cc94421-7f54-4925-b07b-5da2f6b2df23" />
-<img width="977" height="379" alt="image" src="https://github.com/user-attachments/assets/e20bb1ac-d6fe-41ac-ab49-5e5231eab7af" />
+<img width="630" height="644" alt="image" src="https://github.com/user-attachments/assets/89f2ee14-47af-4141-b5d9-a5ca2f958bdf" />
 </p>
 
 # Diagrama Música:
 <p align="center">
 -Musica: Canção da partida - Dorival Caymmi
-![Uploading image.png…]()
+<img width="977" height="379" alt="image" src="https://github.com/user-attachments/assets/e20bb1ac-d6fe-41ac-ab49-5e5231eab7af" />
 </p>
 
 
