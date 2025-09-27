@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Media {
+    public static void main(String[] args) {
+
+        Scanner leitura = new Scanner(System.in);
+        System.out.println("Calcule sua média:");
+
+        System.out.println("Informe sua nota na P1:");
+        double P1 = leitura.nextDouble();
+
+        System.out.println("Informe sua nota na E1:");
+        double E1 = leitura.nextDouble();
+
+        System.out.println("Informe sua nota na E2:");
+        double E2 = leitura.nextDouble();
+
+        System.out.println("Informe sua nota na API:");
+        double API = leitura.nextDouble();
+
+        System.out.println("Você realizou atividades extras? Informe a nota ou 0 se não fez:");
+        double X = leitura.nextDouble();
+
+        System.out.println("Você fez a SUB? Informe a nota ou 0 se não fez:");
+        double Sub = leitura.nextDouble();
+
+        double menorNota = Math.min(P1, Math.min(E1, E2));
+        if (Sub > 0 && Sub > menorNota) {
+            if (P1 == menorNota) {
+                P1 = Sub;
+            } else if (E1 == menorNota) {
+                E1 = Sub;
+            } else {
+                E2 = Sub;
+            }
+        }
+
+        double mediaParcial = (P1 * 0.5) + (E1 * 0.2) + (E2 * 0.3) + X + (Sub * 0.15);
+
+        double mediaFinal;
+        if (API >= 6) {
+            mediaFinal = mediaParcial + (API * 0.5);
+        } else {
+            mediaFinal = mediaParcial;
+        }
+
+        mediaFinal = Math.min(mediaFinal, 10);
+
+        System.out.printf("Sua média é: %.2f%n", mediaFinal);
+
+        leitura.close();
+    }
+}
