@@ -77,8 +77,6 @@ A interface deve:
   1. Instancia o objeto;  
   2. Registra os dados em um arquivo **CSV**.
 
-📄 [`E1 - Parte 2`](./E1Pt2)
-
 ---
 
 
