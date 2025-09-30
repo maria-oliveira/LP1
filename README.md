@@ -56,7 +56,7 @@ Ao encontrar seu “homem ideal”, sua obsessão a leva à loucura.
 ### 🔹 5. Diagrama de um Doodle  
 🖌️ **Doodle escolhido:** *Picnik Poster*  
 
-📐 **Detalhes:**  
+**Detalhes:**  
 - 3 classes  
 - Cada classe com **3 atributos** e **3 métodos**  
 
