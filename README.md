@@ -10,6 +10,7 @@ Média = ((P1*0.5+E1*0.2+E2*0.3+X+SUB*0.15)*0.5)+(max(P1*0.5+E1*0.2+E2*0.3+X+(SU
 
 ### 2- Diagrama de um música
 Diagrama da música Canção da Partida de Dorival Caymmi , com 3 classes, cada uma tendo 3 atributos e 1 método.
+[`Imagem do diagrama`](./Imagens/Diagrama_Musica.md).
 
 ### 3- Diagrama de um Vídeo
 Diagrama do filme The Love Witch, com 3 classes, cada uma tendo 3 atributos e 3 métodos
