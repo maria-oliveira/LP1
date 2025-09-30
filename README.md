@@ -75,7 +75,9 @@ A interface deve:
 - Possuir campos de entrada para os atributos;  
 - Ter um **botão** que, ao ser clicado:  
   1. Instancia o objeto;  
-  2. Registra os dados em um arquivo **CSV**.  
+  2. Registra os dados em um arquivo **CSV**.
+
+📄 [`E1 - Parte 2`](./E1_Pt2)
 
 ---
 
