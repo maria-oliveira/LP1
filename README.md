@@ -1,33 +1,67 @@
 # 📌 Linguagem de Programação 1
 
-## E1 - pt1
-### 1- Teste de Mesa
--Teste de mesa para 10 cenários possíveis, considerando as variáveis e fórmula abaixo.
+## ✨ E1 - Parte 1
 
-Média = ((P1*0.5+E1*0.2+E2*0.3+X+SUB*0.15)*0.5)+(max(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9, 0)/(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9))*API*0.5
+---
 
--[`Imagem do teste de mesa`](.//Teste_de_Mesa.md).
+### 🔹 1. Teste de Mesa
+📊 **Objetivo:** Montar 10 cenários possíveis considerando as variáveis e a fórmula abaixo:  
 
-### 2- Diagrama de um música
--Diagrama da música Canção da Partida de Dorival Caymmi , com 3 classes, cada uma tendo 3 atributos e 1 método.
--[`Imagem do diagrama`](./Imagens/Diagrama_Musica.md).
+\[
+Média = \Big((P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + SUB \cdot 0.15) \cdot 0.5\Big) + \Bigg(\frac{\max(P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + (SUB \cdot 0.15) - 5.9, 0)}{P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + (SUB \cdot 0.15) - 5.9}\Bigg) \cdot API \cdot 0.5
+\]
 
-### 3- Diagrama de um Vídeo
--Diagrama do filme The Love Witch, com 3 classes, cada uma tendo 3 atributos e 3 métodos
--📖 Sinopse:
-Elaine é uma jovem bruxa determinada a encontrar o homem de sua vida.
-Ela leva homens para seu apartamento e faz magias e poções para seduzi-los.
-Tudo funciona bem, mas ela acaba com uma série de vítimas infelizes.
-Quando finalmente encontra o homem de seus sonhos, seu desespero para ser amada a torna insana.
--[`Imagem do diagrama`](./Imagens/Diagrama_Video.md).
+📄 [`Tabela do Teste de Mesa`](./Teste_de_Mesa.md)
 
-### 4- Diagramas de duas criações de Vick Muniz
--Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
--Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
--[`Imagem do diagrama`](./Imagens/Diagrama_Imagem_VikMuniz.md).
+---
 
-### 5- Diagrama de um Doodle
-Diagrama do Doodle "PICNIK POSTER", com 3 classes, cada uma tendo 3 atributos e 3 métodos
--[`Imagem do diagrama`](./Imagens/DiagramaDoodle.md).
+### 🔹 2. Diagrama de uma Música  
+🎵 **Música escolhida:** *Canção da Partida* – Dorival Caymmi  
+
+**Detalhes:**  
+- 3 classes  
+- Cada classe com **3 atributos** e **1 método**  
+
+📄 [`Diagrama da Música`](./Imagens/Diagrama_Musica.md)
+
+---
+
+### 🔹 3. Diagrama de um Vídeo  
+🎬 **Filme escolhido:** *The Love Witch*  
+
+📖 **Sinopse:**  
+Elaine é uma jovem bruxa determinada a encontrar o homem da sua vida.  
+Ela usa magias e poções para seduzir, mas seus amantes acabam se tornando vítimas.  
+Ao encontrar seu “homem ideal”, sua obsessão a leva à loucura.  
+
+**Detalhes:**  
+- 3 classes  
+- Cada classe com **3 atributos** e **3 métodos**  
+
+📄 [`Diagrama do Vídeo`](./Imagens/Diagrama_Video.md)
+
+---
+
+### 🔹 4. Diagramas de Criações de Vik Muniz  
+🎨 **Obras escolhidas:** *John Lennon*, *Lampedusa* 
+
+**Detalhes (para cada diagrama):**  
+- 3 classes  
+- Cada classe com **3 atributos** e **1 método**  
+
+📄 [`Diagrama das Obras`](./Imagens/Diagrama_Imagem_VikMuniz.md)
+
+---
+
+### 🔹 5. Diagrama de um Doodle  
+🖌️ **Doodle escolhido:** *Picnik Poster*  
+
+📐 **Detalhes:**  
+- 3 classes  
+- Cada classe com **3 atributos** e **3 métodos**  
+
+📄 [`Diagrama do Doodle`](./Imagens/Diagrama_Doodle.md)
+
+---
 
 
