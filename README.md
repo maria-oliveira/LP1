@@ -2,32 +2,32 @@
 
 ## E1 - pt1
 ### 1- Teste de Mesa
-Teste de mesa para 10 cenários possíveis, considerando as variáveis e fórmula abaixo.
+-Teste de mesa para 10 cenários possíveis, considerando as variáveis e fórmula abaixo.
 
 Média = ((P1*0.5+E1*0.2+E2*0.3+X+SUB*0.15)*0.5)+(max(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9, 0)/(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9))*API*0.5
 
-[`Imagem do teste de mesa`](.//Teste_de_Mesa.md).
+-[`Imagem do teste de mesa`](.//Teste_de_Mesa.md).
 
 ### 2- Diagrama de um música
-Diagrama da música Canção da Partida de Dorival Caymmi , com 3 classes, cada uma tendo 3 atributos e 1 método.
-[`Imagem do diagrama`](./Imagens/Diagrama_Musica.md).
+-Diagrama da música Canção da Partida de Dorival Caymmi , com 3 classes, cada uma tendo 3 atributos e 1 método.
+-[`Imagem do diagrama`](./Imagens/Diagrama_Musica.md).
 
 ### 3- Diagrama de um Vídeo
-Diagrama do filme The Love Witch, com 3 classes, cada uma tendo 3 atributos e 3 métodos
-Filme: The Love Witch
-
-📖 Sinopse:
+-Diagrama do filme The Love Witch, com 3 classes, cada uma tendo 3 atributos e 3 métodos
+-📖 Sinopse:
 Elaine é uma jovem bruxa determinada a encontrar o homem de sua vida.
 Ela leva homens para seu apartamento e faz magias e poções para seduzi-los.
 Tudo funciona bem, mas ela acaba com uma série de vítimas infelizes.
 Quando finalmente encontra o homem de seus sonhos, seu desespero para ser amada a torna insana.
+-[`Imagem do diagrama`](./Imagens/Diagrama_Video.md).
 
 ### 4- Diagramas de duas criações de Vick Muniz
-Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
-
-Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
+-Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
+-Diagrama da obra intitulada "John Lennon" , com 3 classes, cada uma tendo 3 atributos e 1 método.
+-[`Imagem do diagrama`](./Imagens/Diagrama_Imagem_VikMuniz.md).
 
 ### 5- Diagrama de um Doodle
 Diagrama do Doodle "PICNIK POSTER", com 3 classes, cada uma tendo 3 atributos e 3 métodos
+-[`Imagem do diagrama`](./Imagens/DiagramaDoodle.md).
 
 
