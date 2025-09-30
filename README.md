@@ -64,4 +64,19 @@ Ao encontrar seu “homem ideal”, sua obsessão a leva à loucura.
 
 ---
 
+## ✨ E1 - Parte 2
+
+---
+
+### 🎯 Atividade  
+Elaborar interfaces gráficas em **Java** para ler os atributos das classes criadas na E1 - Parte 1 (item 8).  
+
+A interface deve:  
+- Possuir campos de entrada para os atributos;  
+- Ter um **botão** que, ao ser clicado:  
+  1. Instancia o objeto;  
+  2. Registra os dados em um arquivo **CSV**.  
+
+---
+
 
