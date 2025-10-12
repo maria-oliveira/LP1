@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.TextField?>
+<TabPane prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE"
+         xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="com.mariaeduarda.dorivalcaymmi.Main">
+
+    <tabs>
+        <Tab text="Jangada">
+            <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0">
+                    <children>
+                        <Label layoutX="200.0" layoutY="20.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f" alignment="CENTER">
+                            <font>
+                                <Font name="Bauhaus 93" size="24.0"/>
+                            </font>
+                        </Label>
+
+                        <HBox layoutX="50.0" layoutY="80.0" spacing="30.0" alignment="CENTER_LEFT">
+                            <children>
+                                <VBox spacing="15.0" padding="10">
+                                    <children>
+                                        <Label text="Jangada" textFill="#25791f">
+                                            <font>
+                                                <Font name="System Bold" size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="alturaField" prefWidth="250.0" promptText="Altura"/>
+                                        <TextField fx:id="corField" prefWidth="250.0" promptText="Cor"/>
+                                        <TextField fx:id="materialField" prefWidth="250.0" promptText="Material"/>
+                                        <Button fx:id="registrarButton" text="Registrar" textFill="#25791f" onAction="#onRegistrarJangadaClick">
+                                            <font>
+                                                <Font size="14.0"/>
+                                            </font>
+                                        </Button>
+                                        <Label fx:id="mensagemJangadaLabel" textFill="red"/>
+                                    </children>
+                                </VBox>
+
+                                <ImageView fitHeight="250.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Pictures/Dorival.jpg"/>
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+
+        <!-- Aba Pessoa -->
+        <Tab text="Pessoa">
+            <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0">
+                    <children>
+                        <Label layoutX="200.0" layoutY="20.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f" alignment="CENTER">
+                            <font>
+                                <Font name="Bauhaus 93" size="24.0"/>
+                            </font>
+                        </Label>
+
+                        <HBox layoutX="50.0" layoutY="80.0" spacing="30.0" alignment="CENTER_LEFT">
+                            <children>
+                                <VBox spacing="15.0" padding="10">
+                                    <children>
+                                        <Label text="Pessoa" textFill="#25791f">
+                                            <font>
+                                                <Font name="System Bold" size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="alturaPessoaField" prefWidth="250.0" promptText="Altura"/>
+                                        <TextField fx:id="idadeField" prefWidth="250.0" promptText="Idade"/>
+                                        <TextField fx:id="nomePessoaField" prefWidth="250.0" promptText="Nome"/>
+                                        <Button fx:id="registrarPessoaButton" text="Registrar" textFill="#25791f" onAction="#onRegistrarPessoaClick">
+                                            <font>
+                                                <Font size="14.0"/>
+                                            </font>
+                                        </Button>
+                                        <Label fx:id="mensagemPessoaLabel" textFill="red"/>
+                                    </children>
+                                </VBox>
+
+                                <ImageView fitHeight="250.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@artworks-000078509078-xyq5wg-t500x500.jpg"/>
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </HBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+
+        <!-- Aba Produto -->
+        <Tab text="Produto">
+            <content>
+                <AnchorPane prefHeight="600.0" prefWidth="800.0">
+                    <children>
+                        <Label layoutX="200.0" layoutY="20.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f" alignment="CENTER">
+                            <font>
+                                <Font name="Bauhaus 93" size="24.0"/>
+                            </font>
+                        </Label>
+
+                        <HBox layoutX="50.0" layoutY="80.0" spacing="30.0" alignment="CENTER_LEFT">
+                            <children>
+                                <VBox spacing="15.0" padding="10">
+                                    <children>
+                                        <Label text="Produto" textFill="#25791f">
+                                            <font>
+                                                <Font name="System Bold" size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <TextField fx:id="precoField" prefWidth="250.0" promptText="Preço"/>
+                                        <TextField fx:id="origemField" prefWidth="250.0" promptText="Origem"/>
+                                        <TextField fx:id="nomeProdutoField" prefWidth="250.0" promptText="Nome"/>
+                                        <Button fx:id="registrarProdutoButton" text="Registrar" textFill="#25791f" onAction="#onRegistrarProdutoClick">
+                                            <font>
+                                                <Font size="14.0"/>
+                                            </font>
+                                        </Button>
+                                        <Label fx:id="mensagemProdutoLabel" textFill="red"/>
+                                    </children>
+                                </VBox>
+
+                                <ImageView fitHeight="250.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@Dorival-junto-a-pescadores.jpg"/>
+                                    </image>
+                                </ImageView>
+                            </childr
+
