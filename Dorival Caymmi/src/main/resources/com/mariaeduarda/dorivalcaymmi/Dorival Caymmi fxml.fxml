@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="com.mariaeduarda.dorivalcaymmi.MainController">
+    <tabs>
+        <Tab text="Jangada">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <VBox alignment="CENTER" layoutX="150.0" layoutY="50.0" prefHeight="400.0" prefWidth="300.0" spacing="20.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="50.0">
+                            <children>
+                                <Label alignment="CENTER" prefWidth="300.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f">
+                                    <font>
+                                        <Font name="Bauhaus 93" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Jangada" textFill="#25791f">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="alturaField" promptText="Altura" />
+                                <TextField fx:id="corField" promptText="Cor" />
+                                <TextField fx:id="materialField" promptText="Material" />
+                                <Button fx:id="registrarButton" mnemonicParsing="false" onAction="#onRegistrarJangadaClick" text="Registrar" textFill="#25791f">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Button>
+                                <Label fx:id="mensagemJangadaLabel" alignment="CENTER" prefWidth="280.0" textAlignment="CENTER" wrapText="true">
+                                    <font>
+                                        <Font size="12.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </padding>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Pessoa">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <VBox alignment="CENTER" layoutX="150.0" layoutY="50.0" prefHeight="400.0" prefWidth="300.0" spacing="20.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="50.0">
+                            <children>
+                                <Label alignment="CENTER" prefWidth="300.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f">
+                                    <font>
+                                        <Font name="Bauhaus 93" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Pessoa" textFill="#25791f">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="nomePessoaField" promptText="Nome" />
+                                <TextField fx:id="idadeField" promptText="Idade" />
+                                <TextField fx:id="alturaPessoaField" promptText="Altura" />
+                                <Button fx:id="registrarPessoaButton" mnemonicParsing="false" onAction="#onRegistrarPessoaClick" text="Registrar" textFill="#25791f">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Button>
+                                <Label fx:id="mensagemPessoaLabel" alignment="CENTER" prefWidth="280.0" textAlignment="CENTER" wrapText="true">
+                                    <font>
+                                        <Font size="12.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </padding>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Produto">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <VBox alignment="CENTER" layoutX="150.0" layoutY="50.0" prefHeight="400.0" prefWidth="300.0" spacing="20.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="50.0">
+                            <children>
+                                <Label alignment="CENTER" prefWidth="300.0" text="Canção da Partida - Dorival Caymmi" textFill="#25791f">
+                                    <font>
+                                        <Font name="Bauhaus 93" size="20.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Produto" textFill="#25791f">
+                                    <font>
+                                        <Font name="System Bold" size="16.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="nomeProdutoField" promptText="Nome" />
+                                <TextField fx:id="precoField" promptText="Preço" />
+                                <TextField fx:id="origemField" promptText="Origem" />
+                                <Button fx:id="registrarProdutoButton" mnemonicParsing="false" onAction="#onRegistrarProdutoClick" text="Registrar" textFill="#25791f">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Button>
+                                <Label fx:id="mensagemProdutoLabel" alignment="CENTER" prefWidth="280.0" textAlignment="CENTER" wrapText="true">
+                                    <font>
+                                        <Font size="12.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                            <padding>
+                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                            </padding>
+                        </VBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
