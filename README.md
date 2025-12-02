@@ -7,9 +7,7 @@
 ### 🔹 1. Teste de Mesa
 📊 **Objetivo:** Montar 10 cenários possíveis considerando as variáveis e a fórmula abaixo:  
 
-\[
-Média = \Big((P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + SUB \cdot 0.15) \cdot 0.5\Big) + \Bigg(\frac{\max(P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + (SUB \cdot 0.15) - 5.9, 0)}{P1 \cdot 0.5 + E1 \cdot 0.2 + E2 \cdot 0.3 + X + (SUB \cdot 0.15) - 5.9}\Bigg) \cdot API \cdot 0.5
-\]
+Média = ((P1*0.5+E1*0.2+E2*0.3+X+SUB*0.15)*0.5)+(max(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9, 0)/(P1*0.5+E1*0.2+E2*0.3+X+(SUB*0.15)-5.9))*API*0.5
 
 📄 [`Tabela do Teste de Mesa`](./Teste_de_Mesa.md)
 
