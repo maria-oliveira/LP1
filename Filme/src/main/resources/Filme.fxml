@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:controller="com.mariaeduarda.MainController"
+            maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18"
+            xmlns:fx="http://javafx.com/fxml/1">
+
+    <children>
+        <VBox prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <TabPane prefHeight="406.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                        <Tab text="Pessoa">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                    <children>
+                                        <VBox alignment="CENTER" layoutX="103.0" layoutY="1.0" prefHeight="370.0" prefWidth="394.0" spacing="18.0">
+                                            <children>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="The Love Witch" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font name="Bauhaus 93" size="24.0" />
+                                                    </font>
+                                                </Text>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="Pessoa">
+                                                    <font>
+                                                        <Font name="System Bold" size="16.0" />
+                                                    </font>
+                                                </Text>
+                                                <TextField fx:id="nomePessoaField" prefHeight="20.0" prefWidth="150.0" promptText="Nome" />
+                                                <TextField fx:id="corCabeloField" prefHeight="20.0" promptText="Cor dos Cabelos" />
+                                                <TextField fx:id="alturaPessoaField" prefHeight="20.0" promptText="Altura" />
+                                                <Button fx:id="registrarPessoaButton" mnemonicParsing="false"
+                                                        text="Registrar" textFill="#9e0f0f"
+                                                        onAction="#onRegistrarPessoaClick" />
+                                                <Label fx:id="mensagemPessoaLabel" text="" />
+                                            </children>
+                                            <padding>
+                                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                            </padding>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="Casa">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                    <children>
+                                        <VBox alignment="CENTER" layoutX="103.0" layoutY="1.0" prefHeight="370.0" prefWidth="394.0" spacing="18.0">
+                                            <children>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="The Love Witch">
+                                                    <font>
+                                                        <Font name="Bauhaus 93" size="24.0" />
+                                                    </font>
+                                                </Text>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="Casa">
+                                                    <font>
+                                                        <Font size="16.0" />
+                                                    </font>
+                                                </Text>
+                                                <TextField fx:id="decoracaoField" prefHeight="20.0" promptText="Há decoração?" />
+                                                <TextField fx:id="corCasaField" prefHeight="20.0" promptText="Cor" />
+                                                <TextField fx:id="paredesField" prefHeight="20.0" promptText="Número de paredes" />
+                                                <Button fx:id="registrarCasaButton" mnemonicParsing="false"
+                                                        text="Registrar" textFill="#9e0f0f"
+                                                        onAction="#onRegistrarCasaClick" />
+                                                <Label fx:id="mensagemCasaLabel" text="" />
+                                            </children>
+                                            <padding>
+                                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                            </padding>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                        <Tab text="Poção">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                    <children>
+                                        <VBox alignment="CENTER" layoutX="103.0" layoutY="1.0" prefHeight="370.0" prefWidth="394.0" spacing="18.0">
+                                            <children>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="The Love Witch">
+                                                    <font>
+                                                        <Font name="Bauhaus 93" size="24.0" />
+                                                    </font>
+                                                </Text>
+                                                <Text fill="#9e0f0f" strokeType="OUTSIDE" strokeWidth="0.0" text="Poção">
+                                                    <font>
+                                                        <Font name="System Bold" size="16.0" />
+                                                    </font>
+                                                </Text>
+                                                <TextField fx:id="nomePocaoField" promptText="Nome" />
+                                                <TextField fx:id="corPocaoField" promptText="Cor" />
+                                                <TextField fx:id="finalidadeField" promptText="Finalidade" />
+                                                <Button fx:id="registrarPocaoButton" mnemonicParsing="false"
+                                                        text="Registrar" textFill="#9e0f0f"
+                                                        onAction="#onRegistrarPocaoClick" />
+                                                <Label fx:id="mensagemPocaoLabel" text="" />
+                                            </children>
+                                            <padding>
+                                                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                            </padding>
+                                        </VBox>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                        </Tab>
+                    </tabs>
+                </TabPane>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

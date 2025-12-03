@@ -1,0 +1,4 @@
+--add-reads
+java.sql=ALL-UNNAMED
+--add-exports
+java.sql/sun.security.x509=ALL-UNNAMED
